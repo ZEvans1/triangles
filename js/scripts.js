@@ -26,5 +26,8 @@ $(document).ready(function() {
       $(".result").show();
       $("#final").text(name);
     }
+    else {
+      console.log("else"); 
+    }
   });
 });
